@@ -5,7 +5,7 @@ from object_detection import ObjectDetection
 #initialzie Object Detection
 od = ObjectDetection()
 
-cap = cv2.VideoCapture("los_angeles.mp4")
+cap = cv2.VideoCapture("California.mp4")
 
 while True:
     _, frame = cap.read()
